@@ -5,4 +5,3 @@ class school
     @name= name
     @roster= {}
   end
-end
