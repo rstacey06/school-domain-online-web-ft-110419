@@ -16,12 +16,10 @@ class School
   end
   
   def sort 
-    sorted = {}
+    sorts = {}
     roster.each  {|grade, students|
-      sorted[grade] = students.sort}
+      sorts[grade] = students.sort}
     
-    return sorted
+    return sorts
   end
-
-
 end
